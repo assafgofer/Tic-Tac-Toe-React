@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  margin: 0;
+}
+
+.main {
+  background-color: aquamarine;
+  height: 100vh;
+  width: 100vw;
+}
+
+.board {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	justify-items: center;
+	align-items: center;
+	grid-template-columns: repeat(3, auto);
+}
+
+.cell {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  height: 6rem;
+  width: 6rem;
+  border: 1.5px solid black;
+  font-size: 3rem;
+}
+
+.cell:hover {
+  box-shadow: 0px 0px 10px black;
+  cursor: pointer;
+}
